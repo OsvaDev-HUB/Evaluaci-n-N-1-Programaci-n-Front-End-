@@ -177,19 +177,22 @@ main {
     border: 1px solid #cccccc;
     flex: 1;
     min-width: 280px;
+    padding: 18px;
 }
 
 .cuadricula-servicios article img {
     width: 100%;
-    height: 200px;
+    height: 170px;
     display: block;
     object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 16px;
 }
 
 .cuadricula-servicios article h3 {
     font-size: 15px;
     font-weight: 700;
-    padding: 14px 14px 6px 14px;
+    padding: 0 14px 6px 14px;
 }
 
 .cuadricula-servicios article p {
