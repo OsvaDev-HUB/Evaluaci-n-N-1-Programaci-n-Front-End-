@@ -50,16 +50,6 @@ header a {
     display: inline-block;
 }
 
-.boton-negro {
-    background-color: #111111;
-    color: #ffffff;
-    border: 2px solid #111111;
-}
-
-.boton-negro:hover {
-    background-color: #333333;
-}
-
 .boton-borde {
     background-color: #ffffff;
     color: #111111;
@@ -114,24 +104,6 @@ main {
     max-width: 1200px;
     margin: 30px auto;
     padding: 0 30px;
-}
-
-.seccion-con-titulo {
-    margin-bottom: 50px;
-}
-
-.seccion-con-titulo h2 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 30px;
-    letter-spacing: 2px;
-    color: #111111;
-    margin-bottom: 10px;
-}
-
-.linea-titulo {
-    height: 2px;
-    background-color: #111111;
-    margin-bottom: 30px;
 }
 
 .seccion-presentacion {
@@ -201,24 +173,6 @@ main {
     padding: 0 14px 14px 14px;
 }
 
-.tarjeta-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 12px;
-}
-
-.tarjeta-nombre {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.tarjeta-precio {
-    font-size: 12px;
-    color: #555555;
-}
-
 .cuadricula-profesionales {
     display: flex;
     gap: 20px;
@@ -233,28 +187,6 @@ main {
     padding: 20px;
     flex: 1;
     min-width: 300px;
-}
-
-.profesional-cabecera {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 14px;
-}
-
-.profesional-cabecera h3 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.badge {
-    background-color: #111111;
-    color: #ffffff;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 4px 10px;
-    letter-spacing: 1px;
 }
 
 .tarjeta-profesional img {
@@ -292,28 +224,6 @@ main {
 
 .aviso-lateral ul li {
     margin-bottom: 4px;
-}
-
-.contenedor-formulario {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 40px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.form-subtitulo {
-    font-size: 11px;
-    letter-spacing: 3px;
-    color: #888888;
-    margin-bottom: 8px;
-}
-
-.form-titulo {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
 }
 
 form {
@@ -363,20 +273,6 @@ textarea:focus {
 
 textarea {
     resize: vertical;
-}
-
-.grupo-checkbox label {
-    font-size: 11px;
-    letter-spacing: 1px;
-    color: #444444;
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    font-weight: 400;
-}
-
-input[type="checkbox"] {
-    margin-top: 2px;
     flex-shrink: 0;
 }
 
