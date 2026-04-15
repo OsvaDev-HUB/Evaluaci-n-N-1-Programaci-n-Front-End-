@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    color: #111111;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #111111;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header a {
+    margin-left: auto;
+}
+
+.boton {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.boton-negro {
+    background-color: #111111;
+    color: #ffffff;
+    border: 2px solid #111111;
+}
+
+.boton-negro:hover {
+    background-color: #333333;
+}
+
+.boton-borde {
+    background-color: #ffffff;
+    color: #111111;
+    border: 2px solid #111111;
+    width: 100%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.boton-borde:hover {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.boton-blanco {
+    background-color: #ffffff;
+    color: #111111;
+    border: 2px solid #111111;
+    text-align: center;
+}
+
+.boton-blanco:hover {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+nav ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #111111;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.seccion-con-titulo {
+    margin-bottom: 50px;
+}
+
+.seccion-con-titulo h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.linea-titulo {
+    height: 2px;
+    background-color: #111111;
+    margin-bottom: 30px;
+}
+
+.seccion-presentacion {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.seccion-presentacion img {
+    width: 50%;
+    display: block;
+}
+
+.presentacion-texto h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 42px;
+    line-height: 1.1;
+    color: #111111;
+    margin-bottom: 16px;
+    border-left: 4px solid #111111;
+    padding-left: 14px;
+}
+
+.presentacion-texto p {
+    color: #444444;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.cuadricula-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cuadricula-servicios article {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    flex: 1;
+    min-width: 280px;
+}
+
+.cuadricula-servicios article img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+
+.cuadricula-servicios article h3 {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px 14px 6px 14px;
+}
+
+.cuadricula-servicios article p {
+    font-size: 13px;
+    color: #444444;
+    padding: 0 14px 14px 14px;
+}
+
+.tarjeta-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+}
+
+.tarjeta-nombre {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.tarjeta-precio {
+    font-size: 12px;
+    color: #555555;
+}
+
+.cuadricula-profesionales {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tarjeta-profesional {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.profesional-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.profesional-cabecera h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.badge {
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    letter-spacing: 1px;
+}
+
+.tarjeta-profesional img {
+    width: 100%;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.tarjeta-profesional p {
+    font-size: 13px;
+    color: #444444;
+}
+
+.aviso-lateral {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-left: 4px solid #111111;
+    padding: 20px;
+}
+
+.aviso-lateral h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.aviso-lateral ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #444444;
+    margin-top: 10px;
+}
+
+.aviso-lateral ul li {
+    margin-bottom: 4px;
+}
+
+.contenedor-formulario {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-subtitulo {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #888888;
+    margin-bottom: 8px;
+}
+
+.form-titulo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    padding: 10px 14px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    color: #333333;
+    background-color: #ffffff;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #111111;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.grupo-checkbox label {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #444444;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-weight: 400;
+}
+
+input[type="checkbox"] {
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+input[type="submit"] {
+    padding: 14px;
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #333333;
+}
+
+.seccion-presentacion,
+.seccion-servicios,
+.seccion-profesionales,
+.aviso-lateral,
+.seccion-contacto {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #111111;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+footer strong {
+    color: #ffffff;
+}
